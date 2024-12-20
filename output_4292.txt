@@ -1,0 +1,70 @@
+Time taken by reduction operation: 0.05081057548522949 seconds
+49.1 ms ± 65.3 µs per loop (mean ± std. dev. of 2 runs, 10 loops each)
+
+ 	 Computing the sum of numbers in the range [0, value): 499999500000
+
+Time taken by reduction operation with for loop (list): 0.03712105751037598 seconds
+Time taken by reduction operation with sum() (list): 0.007938146591186523 seconds
+
+	Computing the sum of numbers in the list: 499999500000
+
+Time taken by reduction operation with for loop (NumPy array): 0.08840012550354004 seconds
+Time taken by reduction operation with np.sum() (NumPy array): 0.0004775524139404297 seconds
+
+	Computing the sum of numbers in the array: 499999500000
+
+Ejecución con Numba: Bucle for
+Primera ejecución (incluye compilación JIT): 3.936504602432251 segundos
+Segunda ejecución (ya compilada): 0.0003781318664550781 segundos
+
+Ejecución con Numba: np.sum()
+Primera ejecución (incluye compilación JIT): 0.22656989097595215 segundos
+Segunda ejecución (ya compilada): 0.00029754638671875 segundos
+
+	Sum using for loop with Numba: 499999500000
+	Sum using np.sum() with Numba: 499999500000
+Ejecución con Numba: Bucle for
+Primera ejecución (incluye compilación JIT): 0.07865285873413086 segundos
+Segunda ejecución (ya compilada): 0.003812551498413086 segundos
+
+Ejecución con Numba: np.sum()
+Primera ejecución (incluye compilación JIT): 0.07465004920959473 segundos
+Segunda ejecución (ya compilada): 0.0031206607818603516 segundos
+
+	Sum using for loop with Numba: 49999995000000
+	Sum using np.sum() with Numba: 49999995000000
+Time taken by reduction operation: 0.0511469841003418 seconds
+49.2 ms ± 28.5 µs per loop (mean ± std. dev. of 2 runs, 10 loops each)
+
+ 	 Computing the sum of numbers in the range [0, value): 499999500000
+
+Time taken by reduction operation with for loop (list): 0.037055015563964844 seconds
+Time taken by reduction operation with sum() (list): 0.006901979446411133 seconds
+
+	Computing the sum of numbers in the list: 499999500000
+
+Time taken by reduction operation with for loop (NumPy array): 0.10016345977783203 seconds
+Time taken by reduction operation with np.sum() (NumPy array): 0.00047779083251953125 seconds
+
+	Computing the sum of numbers in the array: 499999500000
+
+Ejecución con Numba: Bucle for
+Primera ejecución (incluye compilación JIT): 0.7187409400939941 segundos
+Segunda ejecución (ya compilada): 0.0003867149353027344 segundos
+
+Ejecución con Numba: np.sum()
+Primera ejecución (incluye compilación JIT): 0.1859753131866455 segundos
+Segunda ejecución (ya compilada): 0.00028967857360839844 segundos
+
+	Sum using for loop with Numba: 499999500000
+	Sum using np.sum() with Numba: 499999500000
+Ejecución con Numba: Bucle for
+Primera ejecución (incluye compilación JIT): 0.13828158378601074 segundos
+Segunda ejecución (ya compilada): 0.06451678276062012 segundos
+
+Ejecución con Numba: np.sum()
+Primera ejecución (incluye compilación JIT): 0.13577675819396973 segundos
+Segunda ejecución (ya compilada): 0.059958457946777344 segundos
+
+	Sum using for loop with Numba: 4999999950000000
+	Sum using np.sum() with Numba: 4999999950000000
